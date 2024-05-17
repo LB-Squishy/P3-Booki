@@ -108,7 +108,7 @@ button {
 
 /****** Section Info Group ***********/
 .info-group {
-    margin-top: 30px;
+    margin: 30px 0 35px 0;
 }
 
 .info-group__headline--subtitle {
@@ -154,6 +154,55 @@ button {
     padding: 0 16px;
     font-size: 18px;
     color: white;
+}
+
+/****** Filter ***********/
+.info-group__filter {
+    display: flex;
+    align-items: center;
+}
+
+.info-group__filter--label {
+    font-size: 18px;
+    font-weight: 700;
+    margin-right: 15px;
+}
+
+.info-group__filter--list {
+    display: flex;
+    gap: 15px;
+}
+
+.filter__btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 20px;
+    border-radius: 25px;
+    border: var(--main-bg-color) solid 2px;
+    background-color: white;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.filter__btn:hover {
+    background-color: var(--filter-bg-color);
+}
+
+/****** Info Bar ***********/
+.info-group__info-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 35px;
+}
+
+.info-group__info-bar--icon {
+    display: flex;
+    border-radius: 25px;
+    border: var(--main-bg-color) solid 2px;
+    font-size: 12px;
+    padding: 6px 10px 6px 10px;
 }
 
 /****** Hebergements And Populaires ***********/
