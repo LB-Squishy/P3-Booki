@@ -368,6 +368,34 @@ button {
     margin: 20px;
 }
 
+/****** Footer ***********/
+.footer-container {
+    background-color: var(--main-bg-color);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 20px;
+}
+
+.footer-content__list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer-link:hover {
+    color: var(--main-color);
+}
+
+.footer-link:active {
+    transform: translateY(2px);
+}
+
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
